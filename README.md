@@ -1,0 +1,1 @@
+This is my rts project based on the Godot 4 tutorial from Coding Quest.
