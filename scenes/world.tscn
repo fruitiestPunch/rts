@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfrqlo03jcv5f"]
+
+[ext_resource type="PackedScene" uid="uid://dq8welss8sgna" path="res://scenes/ui_canvas_layer.tscn" id="1_ulcf1"]
+[ext_resource type="Texture2D" uid="uid://10gen2v5cttu" path="res://assets/textures/Grum.png" id="2_j7wsh"]
+
+[node name="World" type="Node2D"]
+
+[node name="UI_CanvasLayer" parent="." instance=ExtResource("1_ulcf1")]
+
+[node name="Grum" type="Sprite2D" parent="."]
+position = Vector2(122, 90)
+texture = ExtResource("2_j7wsh")
